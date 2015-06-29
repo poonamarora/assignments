@@ -10,8 +10,8 @@ entries_histogram <- function(turnstile_wether){
   plot2
 }
 
-#turnstile_weather <- read.table(input,header=T,sep=',' )
-turnstile_weather <- read.table(file.choose(),header=T,sep=',' )
+turnstile_weather <- read.table(input, header=T, sep=',' )
+#turnstile_weather <- read.table(file.choose(),header=T,sep=',' )
 dim(turnstile_weather)
 names(turnstile_weather)
 attach(turnstile_weather)

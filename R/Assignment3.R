@@ -21,7 +21,7 @@ qplot_entries_by_hour_of_the_day = function(turnstile_dataframe){
   plot
 }
 
-saprate_rain_norain_by_hour = function(turnstile_dataframe){
+separate_rain_norain_by_hour = function(turnstile_dataframe){
   plot <- qplot(Hour, ENTRIESn_hourly, data = turnstile_dataframe, facets = .~rain, color = as.factor(rain))  
   plot
 }
@@ -61,6 +61,6 @@ print(plot_entries_by_day_of_week(turnstile_dataframe))
 print(plot_entries_by_hour_of_the_day(turnstile_dataframe))
 print(plot_exits_by_hour_of_the_day(turnstile_dataframe))
 print(qplot_entries_by_hour_of_the_day(turnstile_dataframe))
-print(saprate_rain_norain_by_hour(turnstile_dataframe))
+print(separate_rain_norain_by_hour(turnstile_dataframe))
 
 

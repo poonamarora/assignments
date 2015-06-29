@@ -1,5 +1,5 @@
 rm(list=ls())
-# input file name
+# input/output file names
 input <- "../data/turnstile_data_master_with_weather.csv"
 file1 <- "../data/file_1.txt"
 file2 <- "../data/file_2.txt"
