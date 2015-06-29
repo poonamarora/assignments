@@ -1,5 +1,3 @@
-# History files
+.Rproj.user
 .Rhistory
-.Rapp.history
-
-*-Ex.R
+.RData
